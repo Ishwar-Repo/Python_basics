@@ -133,7 +133,7 @@ print("center() method is used with 2nd argument =>"+"hello world".center(16,"*"
 print("I had exciting trip !!!11111")
 print("strip() method is used =>"+"1111I had exciting trip !!!11111".strip("1"))
 print("strip() method is used =>"+"blueblueyellowblue".strip("eulb")) #Important
-print("rstrip() method is used =>"+"I had exciting trip !!!1111".rstrip("1"))
+print("rstrip() method is used =>"+"1111I had exciting trip !!!11111".rstrip("1"))
 print("rstrip() method is used =>"+"juice, bread, cheese, beef, bread".rstrip(", bread"))
 print("rstrip() method is used =>"+"juice, bread, cheese, beef, bread".rstrip(",ed arb")) #Important
 print("lstrip() method is used =>"+"1111 I had exciting trip !!!11111".lstrip("1"))
@@ -190,7 +190,7 @@ for char in range(len(name) -1,-1,-1):
 print("Reversed of the given string by char =>"+str(empty))
 
 #or
-print("Reversed of the given string by char =>"+name[::-1])
+print("Reversed of the given string by char (Using the Slicing of String)=>"+name[::-1])
 
 #and
 print("Reversed the string by words =>")

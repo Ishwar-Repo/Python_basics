@@ -36,6 +36,15 @@ while entered_val > 0:
     summed +=entered_val
     entered_val -=1
 print("Total of summed value is = " + str(summed))
+
+#OR
+value=int(input("Enter the value which you want a summation of preceding numbers = "))
+range1= range(value,0,-1)
+temp1=0
+
+for i in range1:
+    temp1+=i
+print("Entered value summation of preceding numbers = "+str(temp1))
 print("==================================================while loop")
 
 # 2. for loop
@@ -66,6 +75,7 @@ for char in enter:
     print("Letter is = "+str(char))
     count+=1
 
+print("Printed the entered character here = "+str(enter))
 print("Total char in entered string = "+str(count))
 print("==================================================for loop")
 
@@ -124,6 +134,14 @@ for aaa in random_numbers:
         print("Buzz= "+str(aaa))
     else:
         print(aaa)
+
+#OR
+
+print("FizzBuzz = "+str(list(range(0,51,15))))
+print("Fizz = "+str(list(range(0,51,3))))
+print("Buzz = "+str(list(range(0,51,5))))
+
+
 print("--------------------------------------------------------------------------------")
 
 #Assignment 2

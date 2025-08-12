@@ -184,7 +184,7 @@ pops_items = fast_food_items1.popitem()
 print(fast_food_items1) #{"McDonald's": 'Big Mac', 'Burger King': 'Whopper'}
 print("---------------------------------------------------------------------------------------")
 
-#Dictionary Methods 3 : clear(), copy() and update()
+#Dictionary Methods 4 : clear(), copy() and update()
 
 # 1. clear()- It just removes everything from a dictionary that it is called on resulting in an empty dictionary.
 #  The .clear method takes no arguments.
@@ -207,10 +207,10 @@ print("-------------------------------------------------------------------------
 #3. update()- It allows us to add key-value pairs from one dictionary to another or overwrite the values of existing keys in a dictionary with values from another dictionary.
 # this method takes one argument
 city_info = {"country":"Canada", "province":"Ontario", "city":"Toronto"}
-populations = {"populations":293000}
-city_info.update(populations)
+population_1 = {"populations":293000}
+city_info.update(population_1)
 print(city_info) #{'country': 'Canada', 'province': 'Ontario', 'city': 'Toronto', 'populations': 293000}
-print(populations) #{'populations': 293000}
+print(population_1) #{'populations': 293000}
 
 city_info1 = {"country":"Canada", "province":"Ontario", "city":"Toronto"}
 populations1= {"populations":293000}
