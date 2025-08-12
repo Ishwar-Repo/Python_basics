@@ -103,6 +103,7 @@ print("-------------------------------------------------------------------------
 #3.3 Using range() with 3 argument
 three_input = range(1, 20, 3)
 
+
 for num2 in three_input:
     print("Printing the numbers in sequence with 3 argument = "+str(num2))
 print("Type of the data = "+str(type(three_input)))
