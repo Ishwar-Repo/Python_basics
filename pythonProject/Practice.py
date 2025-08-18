@@ -36,9 +36,10 @@ print("this is the output of ex_14 --> "+str(ex_14))
 
 print("----------------------------------------------------------")
 
-major_cities4 = ("Tokyo", "London", "New York", "Shanghai", "Sydney")
-print(major_cities4[::-1])
-
+set11={1,2,3,4,5,9,6}
+set12={6,7,8,9,10,2,5}
+set13 = set12 - set11
+print(set13)
 
 
 
